@@ -109,11 +109,7 @@ header {
     justify-content: right;
 }
 
-.links,
-.envelope,
-.smartphone,
-.links-contact:active,
-.links-contact:hover {
+.links .envelope .smartphone .links-contact:active .links-contact:hover {
     color: var(--brand-color);
 }
 
@@ -285,6 +281,7 @@ a {
 
 .company-border {
     list-style: none;
+    cursor: pointer;
     padding: 16px 32px;
     width: 170px;
     height: 92px;
@@ -429,6 +426,7 @@ a {
 .social-media-icons-single {
     margin: auto;
     fill: var(--border-lightgrey);
+    cursor: pointer;
 }
 .social-media-icons-single:hover,
 .social-media-icons-single:focus {
