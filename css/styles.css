@@ -278,11 +278,11 @@ a {
 .social-media-icons {
     display: flex;
     fill: var(--border-lightgrey);
-    justify-items: center;
+    justify-content: center;
     margin: auto;
-    gap: 20px;
     list-style: none;
     padding-top: 12px;
+    max-height: 44px;
     max-width: 206px;
 }
 
@@ -290,6 +290,9 @@ a {
     margin: auto;
     fill: var(--border-lightgrey);
     cursor: pointer;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
 }
 
 .social-media-icons-single:hover,
@@ -437,7 +440,6 @@ a {
 .footer-contact:hover {
     color: var(--brand-color);
 }
-
 .joined-us {
     font-family: "Roboto";
     font-weight: 700;
@@ -445,10 +447,12 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     font-style: normal;
-    text-align: center;
-    margin-top: 0px;
 }
-
+.joined-us-section {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
 .social-media-footer {
     display: flex;
     max-width: 206px;
@@ -467,7 +471,6 @@ a {
     padding-top: 12px;
     padding-left: 12px;
 }
-
 .social-media-footer-single:hover {
     background-color: var(--brand-color);
 }
