@@ -73,23 +73,6 @@ header {
     gap: 10px;
     align-items: baseline;
 }
-
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.4;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    text-shadow: 2px, 2px, 4px, #212121;
-    color: var(--brand-color);
-    color: var(--black);
-}
-.logo-web {
-    color: var(--brand-color);
-}
-
 .links {
     color: var(--black);
     cursor: pointer;
@@ -109,19 +92,37 @@ header {
     font-weight: 500;
     justify-content: right;
 }
-.hover {
+.smartphone-envelope {
     color: var(--grey);
     fill: var(--grey);
+    cursor: pointer;
 }
-.hover:hover,
-.hover:active,
-.hover:focus {
+.links-contact:hover,
+.links-contact:focus,
+.smartphone-envelope:hover,
+.smartphone-envelope:focus {
+    fill: var(--brand-color);
     color: var(--brand-color);
 }
 
 a {
     list-style-type: none;
     text-decoration: none;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-shadow: 2px, 2px, 4px, #212121;
+    color: var(--brand-color);
+    color: var(--black);
+}
+.logo-web {
+    color: var(--brand-color);
 }
 
 .title {
@@ -427,6 +428,7 @@ a {
     font-style: normal;
     padding-top: 20px;
     padding-bottom: 9px;
+    padding-right: 70px;
     line-height: 1, 7;
     justify-content: flex-start;
 }
@@ -449,19 +451,16 @@ a {
     font-style: normal;
 }
 .joined-us-section {
-    justify-content: center;
-    display: flex;
-    margin: auto;
+    margin-top: 20px;
 }
 .social-media-footer {
     display: flex;
     max-width: 206px;
-    gap: 10px;
     list-style: none;
-    padding-bottom: 100px;
 }
 .social-media-footer-single {
     fill: var(--title);
+    cursor: pointer;
     background-color: rgba(0, 0, 0, 0.25);
     margin-top: 20px;
     width: 44px;
@@ -473,4 +472,8 @@ a {
 }
 .social-media-footer-single:hover {
     background-color: var(--brand-color);
+    border-radius: 50%;
+}
+.footer-sections {
+    display: flex;
 }
