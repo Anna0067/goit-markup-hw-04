@@ -62,11 +62,6 @@ header {
     padding-left: 345px;
 }
 
-.envelope-smartphone {
-    fill: var(--grey);
-    cursor: pointer;
-}
-
 .links {
     color: var(--black);
     cursor: pointer;
