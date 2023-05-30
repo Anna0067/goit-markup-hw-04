@@ -62,17 +62,6 @@ header {
     padding-left: 345px;
 }
 
-.envelope {
-    fill: var(--grey);
-    display: inline-flex;
-    align-items: baseline;
-}
-.smartphone {
-    fill: var(--grey);
-    display: inline-flex;
-    gap: 10px;
-    align-items: baseline;
-}
 .links {
     color: var(--black);
     cursor: pointer;
@@ -91,16 +80,12 @@ header {
     font-size: inherit;
     font-weight: 500;
     justify-content: right;
-}
-.smartphone-envelope {
-    color: var(--grey);
     fill: var(--grey);
     cursor: pointer;
 }
+
 .links-contact:hover,
-.links-contact:focus,
-.smartphone-envelope:hover,
-.smartphone-envelope:focus {
+.links-contact:focus {
     fill: var(--brand-color);
     color: var(--brand-color);
 }
@@ -377,6 +362,7 @@ a {
 
 .portfolio-images {
     list-style-type: none;
+    cursor: pointer;
     margin: auto;
     gap: 30px;
     margin-bottom: 30px;
@@ -452,11 +438,13 @@ a {
 }
 .joined-us-section {
     margin-top: 20px;
+    justify-content: center;
 }
 .social-media-footer {
     display: flex;
     max-width: 206px;
     list-style: none;
+    align-items: center;
 }
 .social-media-footer-single {
     fill: var(--title);
@@ -466,9 +454,7 @@ a {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    margin-bottom: 20px;
-    padding-top: 12px;
-    padding-left: 12px;
+    align-items: center;
 }
 .social-media-footer-single:hover {
     background-color: var(--brand-color);
