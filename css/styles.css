@@ -62,6 +62,11 @@ header {
     padding-left: 345px;
 }
 
+.envelope-smartphone {
+    fill: var(--grey);
+    cursor: pointer;
+}
+
 .links {
     color: var(--black);
     cursor: pointer;
@@ -76,11 +81,11 @@ header {
 }
 .links-contact {
     color: var(--grey);
+    fill: var(--grey);
     font-size: 14px;
     font-size: inherit;
     font-weight: 500;
     justify-content: right;
-    fill: var(--grey);
     cursor: pointer;
 }
 
