@@ -74,20 +74,21 @@ header {
 .links:hover {
     color: var(--brand-color);
 }
-.links-contact {
-    color: var(--grey);
+
+.envelope-smartphone {
     fill: var(--grey);
+    cursor: pointer;
+    color: var(--grey);
     font-size: 14px;
     font-size: inherit;
     font-weight: 500;
     justify-content: right;
-    cursor: pointer;
 }
 
-.links-contact:hover,
-.links-contact:focus {
-    fill: var(--brand-color);
+.envelope-smartphone:hover,
+.envelope-smartphone:focus {
     color: var(--brand-color);
+    fill: var(--brand-color);
 }
 
 a {
@@ -219,6 +220,26 @@ a {
     list-style: none;
     justify-content: space-between;
     padding-bottom: 94px;
+}
+
+.index-image-title > .label {
+    position: absolute;
+    bottom: 0;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: var(--title);
+    width: 370px;
+    height: 70px;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+.index-image-title {
+    position: relative;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .john-doe-section {
